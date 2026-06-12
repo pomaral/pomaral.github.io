@@ -1,0 +1,235 @@
+body
+    margin-block-end: 0
+
+    main
+
+        #current-lg
+            display: flex
+            flex-direction: column
+            align-items: center
+            position: relative
+            background-color: #FFFFC8
+            border: 3px solid #F0D764
+            border-radius: 10px
+            width: 100%
+            min-width: 300px
+            max-width: 300px
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+
+            h2
+                font-family: Geometric
+                font-size: 12px
+                text-align: center
+                color: #FFFFFF
+                text-shadow: #BE6E28 1px 0px,#BE6E28 -1px 0px,#BE6E28 0px -1px,#BE6E28 0px 1px,rgba(0, 0, 0, 0.25) 2px 2px,#BE6E28 -1px 1px,#BE6E28 1px -1px,#BE6E28 -1px -1px
+                background-color: #E68C41
+                padding-block: 5px
+                width: 100%
+
+            img
+                margin-block: 10px
+                width: 200px
+                border-radius: 5px
+                box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+
+            a
+                font-family: Geometric
+                font-size: 14px
+                text-decoration: none
+                text-align: center
+                color: #FFFFFF
+                text-shadow: #50696E 1px 0px,#50696E -1px 0px,#50696E 0px -1px,#50696E 0px 1px,#50696E 1px 1px,#50696E -1px 1px,#50696E 1px -1px,#50696E -1px -1px
+                background-color: #EBBE4B
+                border: 1px solid #50696E
+                border-radius: 20px
+                padding-block: 10px
+                margin-block-end: 0.83em
+                width: 200px
+                transition: 0.2s
+
+                &:hover
+                    background-color: #F0C864
+                    transform: scale(1.02)
+
+            &::after
+                content: ""
+                position: absolute
+                top: 40px
+                left: 55px
+                width: 20px
+                height: 31px
+                background: url("../img/media/alert_icon.png") no-repeat center / contain
+                z-index: 2
+
+        .block-content.green
+            #fold-button
+                width: 30px
+                border: 3px solid #376E5F
+                border-radius: 50px
+                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+                margin-block: 20px
+                cursor: pointer
+                @media screen and (min-width: 860px)
+                    display: none
+
+            #lg-list
+                display: none
+                grid-template-columns: 1fr
+                row-gap: 20px
+                @media screen and (min-width: 620px)
+                    grid-template-columns: repeat(2, 1fr)
+                    column-gap: 20px
+                @media screen and (min-width: 860px)
+                    display: grid !important
+                    grid-template-columns: repeat(3, 1fr)
+                    margin-block-start: 20px
+                @media screen and (min-width: 1100px)
+                    grid-template-columns: repeat(4, 1fr)
+                @media screen and (min-width: 1200px)
+                    margin-block-start: 50px
+                @media screen and (min-width: 1340px)
+                    grid-template-columns: repeat(5, 1fr)
+
+                &.active
+                    display: grid
+
+                .lg-card
+                    display: flex
+                    flex-direction: column
+                    text-decoration: none
+                    background-color: #E1F5E6
+                    border: 5px solid #87DCBE
+                    border-radius: 20px
+                    padding: 10px
+                    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+                    width: 100%
+                    transition: 0.2s
+
+                    img
+                        width: 100%
+                        border-radius: 10px
+                        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+
+                    span
+                        font-family: FOT NewRodin Pro
+                        font-size: 14px
+                        text-align: center
+                        color: #376E5F
+                        text-shadow: rgba(0, 0, 0, 0.1) 1px 1px
+                        margin-block: 10px 5px
+
+                    &:hover
+                        transform: scale(1.02)
+
+        .block-content.blue
+            #pk-list
+                display: grid
+                grid-template-columns: repeat(2, 1fr)
+                column-gap: 20px
+                row-gap: 20px
+                margin-block-start: 20px
+                @media screen and (min-width: 400px)
+                    grid-template-columns: repeat(3, 1fr)
+                @media screen and (min-width: 600px)
+                    grid-template-columns: repeat(4, 1fr)
+                @media screen and (min-width: 800px)
+                    grid-template-columns: repeat(5, 1fr)
+                @media screen and (min-width: 1000px)
+                    grid-template-columns: repeat(6, 1fr)
+                @media screen and (min-width: 1200px)
+                    grid-template-columns: repeat(7, 1fr)
+                    margin-block-start: 50px
+
+                .pk-card
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    text-decoration: none
+                    background-color: #F0FAFF
+                    border: 4px solid #69919B
+                    color: #416973
+                    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+                    border-radius: 10px
+                    padding-block: 10px
+                    width: 100%
+                    transition: 0.2s
+
+                    img
+                        width: 100%
+
+                    span
+                        font-family: Geometric
+                        font-size: 16px
+                        margin-block-start: 10px
+
+                    &:hover
+                        transform: scale(1.02)
+
+                    &.current
+                        position: relative
+                        border-color: #C88282
+                        background-color: #FADCDC
+                        color: #A54646
+
+                        &::after
+                            content: ""
+                            position: absolute
+                            top: -15px
+                            left: 5px
+                            width: 20px
+                            height: 31px
+                            background: url("../img/media/alert_icon.png") no-repeat center / contain
+                            z-index: 2
+                
+    footer
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 100%
+        margin-block-start: 50px
+        padding-block: 20px
+        font-family: Roboto
+        font-size: 10px
+        color: #416973
+        background-color: rgba(245, 80, 90, 0.5)
+
+        p
+            text-align: center
+            margin: 0
+
+        hr
+            width: 70%
+            border: none
+            height: 0.5px
+            background-color: #416973
+            margin-block: 15px
+        
+        .faq-link
+            padding-inline-start: 15px
+
+        .index-link
+            padding-inline-start: 10px
+
+        .faq-link, .index-link
+            position: relative
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 150px
+            height: 30px
+            text-decoration: none
+            font-weight: bold
+            color: #416973
+            background-color: #FFFFFF
+            box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+            border-radius: 50px
+            transition: 0.2s
+
+            img
+                position: absolute
+                left: 0px
+                width: 30px
+
+            &:hover
+                transform: scale(1.05)

@@ -1,0 +1,128 @@
+body
+
+    #pk-opponents
+
+        #opponents-list
+            display: flex
+            flex-direction: column
+            gap: 5px
+            margin-block-start: 20px
+            width: 100%
+            @media screen and (min-width: 1024px)
+                flex-direction: row
+                align-items: flex-start
+            @media screen and (min-width: 1200px)
+                margin-block-start: 50px
+
+            .pk-opponent
+                width: 100%
+
+                .pk-button
+                    position: relative
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    text-decoration: none
+                    background-color: #F0FAFF
+                    border: 4px solid #69919B
+                    color: #416973
+                    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+                    border-radius: 10px
+                    padding-block: 10px
+                    width: 100%
+                    transition: 0.2s
+
+                    &:hover
+                        transform: scale(1.02)
+
+                    img
+                        width: 100px
+
+                    .pk-sync-move
+                        position: absolute
+                        width: 30px
+                        top: 0px
+                        right: 10px
+
+                    h2
+                        font-size: 16px
+                        margin-block-start: 10px
+
+                    .pk-advice-button
+                        position: relative
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        width: 100%
+                        cursor: pointer
+
+                        h3
+                            font-family: Geometric
+                            font-size: 14px
+                            color: #FFFFFF
+                            margin: 0
+
+                        img
+                            position: absolute
+                            right: 0
+                            width: 20px
+
+    #battles
+
+        #battle-statistics
+            display: flex
+            flex-direction: row
+            gap: 5px
+            margin-block: 20px
+            background-color: #87C8F0
+            border: 3px solid #FAF096
+            border-radius: 10px
+            padding: 10px
+            font-family: Geometric
+            font-size: 12px
+            text-shadow: #325F6E 1px 0px,#325F6E -1px 0px,#325F6E 0px -1px,#325F6E 0px 1px,rgba(0, 0, 0, 0.25) 2px 2px,#325F6E -1px 1px,#325F6E 1px -1px,#325F6E -1px -1px
+            width: 300px
+
+            .stat
+                display: flex
+                background-color: #4196D2
+                border-radius: 5px
+                width: 100%
+                
+                div
+                    &:first-child
+                        width: 70%
+                        color: #FFFFFF
+                        padding: 5px 10px
+
+                    &:last-child
+                        width: 30%
+                        color: #FAF096
+                        text-align: end
+                        background-color: #4BA0E1
+                        padding: 5px 10px
+                        border-radius: 0 5px 5px 0
+
+        #battle-list
+
+            .battle
+
+
+                .battle-info
+
+                    .battle-proof
+                        display: none
+                        align-items: center
+                        justify-content: center
+                        background-color: #D2EBEB
+                        border-radius: 10px
+                        margin: 5px
+                        padding: 5px
+
+                        img
+                            min-width: 240px
+                            max-width: 300px
+                            @media screen and (min-width: 1024px)
+                                width: 240px
+                            @media screen and (min-width: 1200px)
+                                width: 300px

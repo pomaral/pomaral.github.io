@@ -1,0 +1,92 @@
+body
+
+    h1
+        color: #FFF5C8
+        text-shadow: #4B1EAA 1px 0px,#4B1EAA -1px 0px,#4B1EAA 0px -1px,#4B1EAA 0px 1px,rgba(0, 0, 0, 0.25) 2px 2px,#4B1EAA -1px 1px,#4B1EAA 1px -1px,#4B1EAA -1px -1px
+        background: linear-gradient(#5F82f5, #3C50EB)
+
+    main
+
+        .block-content
+
+            .question
+                display: flex
+                flex-direction: column
+                width: 100%
+                margin-block-end: 20px
+
+                h2
+                    font-size: 16px
+                    text-align: left
+                    margin-block-end: 20px
+
+                p, ul
+                    font-family: Roboto
+                    font-size: 14px
+                    color: #416973
+                    margin-block: 10px
+
+                #img-pk-panel
+                    width: auto
+                    @media screen and (min-width: 760px)
+                        width: 620px
+                        align-self: center
+
+                #img-pk-order, #img-sb-move, #img-pk-version
+                    width: auto
+                    @media screen and (min-width: 400px)
+                        width: 320px
+                        align-self: center
+
+                #difficulty-schema
+                    display: grid
+                    grid-template-columns: 120px auto
+                    align-items: center
+
+                    .difficulty-level
+
+                        .difficulty
+                            display: block
+                            font-family: Josefin Sans
+                            font-size: 12px
+                            text-align: center
+                            color: #FFFFFF
+                            width: 100px
+                            border-radius: 5px
+                            padding-block: 4px 2px
+                            margin-inline-end: 5px
+
+                            &.normal
+                                background-color: #96C864
+                                border: 1px solid #55822D
+                                text-shadow: #55822D 1px 0px,#55822D -1px 0px,#55822D 0px -1px,#55822D 0px 1px,#55822D 1px 1px,#55822D -1px 1px,#55822D 1px -1px,#55822D -1px -1px
+                                &::before
+                                    content: "Normal"
+
+                            &.dificil
+                                background-color: #F0A03C
+                                border: 1px solid #965A1E
+                                text-shadow: #965A1E 1px 0px,#965A1E -1px 0px,#965A1E 0px -1px,#965A1E 0px 1px,#965A1E 1px 1px,#965A1E -1px 1px,#965A1E 1px -1px,#965A1E -1px -1px
+                                &::before
+                                    content: "Difícil"
+
+                            &.muy_dificil
+                                background-color: #EB5F28
+                                border: 1px solid #874619
+                                text-shadow: #874619 1px 0px,#874619 -1px 0px,#874619 0px -1px,#874619 0px 1px,#874619 1px 1px,#874619 -1px 1px,#874619 1px -1px,#874619 -1px -1px
+                                &::before
+                                    content: "Muy difícil"
+
+                            &.experto
+                                background-color: #D72D1E
+                                border: 1px solid #871E14
+                                text-shadow: #871E14 1px 0px,#871E14 -1px 0px,#871E14 0px -1px,#871E14 0px 1px,#871E14 1px 1px,#871E14 -1px 1px,#871E14 1px -1px,#871E14 -1px -1px
+                                &::before
+                                    content: "Experto"
+
+                            &.superexperto
+                                background-color: #3C7DE6
+                                border: 1px solid #2855AA
+                                text-shadow: #2855AA 1px 0px,#2855AA -1px 0px,#2855AA 0px -1px,#2855AA 0px 1px,#2855AA 1px 1px,#2855AA -1px 1px,#2855AA 1px -1px,#2855AA -1px -1px
+                                &::before
+                                    content: "Superexperto"

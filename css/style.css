@@ -1,0 +1,114 @@
+@font-face {
+  font-family: FOT NewRodin Pro;
+  src: url(../fonts/FOT-NewRodin-Pro-EB.otf);
+}
+@font-face {
+  font-family: Geometric;
+  src: url(../fonts/Geometric-706-Black-Condensed.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url(../fonts/JosefinSans-Bold.ttf);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/media/background.png);
+  background-attachment: fixed;
+  margin-block: 50px;
+}
+body h1 {
+  font-family: FOT NewRodin Pro;
+  font-size: 1.2em;
+  text-align: center;
+  margin-block-end: 50px;
+  padding: 20px;
+  color: #FFFFFF;
+  text-shadow: #3C278C 1px 0px, #3C278C -1px 0px, #3C278C 0px -1px, #3C278C 0px 1px, rgba(0, 0, 0, 0.25) 2px 2px, #3C278C -1px 1px, #3C278C 1px -1px, #3C278C -1px -1px;
+  background: url(../img/media/h1_background.png) no-repeat left/contain, linear-gradient(#C873FA, #683CF0);
+  border-top: 5px solid #FFFFFF;
+  border-bottom: 5px solid #FFFFFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width: 1000px) {
+  body h1 {
+    font-size: 1.5em;
+  }
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 20px;
+  gap: 50px;
+}
+@media screen and (min-width: 700px) {
+  body main {
+    margin-inline: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body main {
+    margin-inline: 75px;
+  }
+}
+body main .block-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 300px;
+}
+@media screen and (min-width: 1200px) {
+  body main .block-content {
+    padding: 50px;
+  }
+}
+body main .block-content h2 {
+  font-family: FOT NewRodin Pro;
+  font-size: 1em;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+}
+body main .block-content.green {
+  background-color: rgba(140, 200, 135, 0.5);
+}
+body main .block-content.green h2 {
+  text-shadow: #376E5F 1px 0px, #376E5F -1px 0px, #376E5F 0px -1px, #376E5F 0px 1px, rgba(0, 0, 0, 0.25) 2px 2px, #376E5F -1px 1px, #376E5F 1px -1px, #376E5F -1px -1px;
+}
+@media screen and (min-width: 1000px) {
+  body main .block-content.green h2 {
+    font-size: 1.2em;
+  }
+}
+body main .block-content.blue {
+  background-color: rgba(70, 150, 180, 0.5);
+}
+body main .block-content.blue h2 {
+  text-shadow: #416973 1px 0px, #416973 -1px 0px, #416973 0px -1px, #416973 0px 1px, rgba(0, 0, 0, 0.25) 2px 2px, #416973 -1px 1px, #416973 1px -1px, #416973 -1px -1px;
+}
+@media screen and (min-width: 1000px) {
+  body main .block-content.blue h2 {
+    font-size: 1.2em;
+  }
+}
+body main .block-content.lightblue {
+  background-color: rgba(175, 215, 215, 0.5);
+}
+body main .block-content.lightblue h2 {
+  text-shadow: #3C8296 1px 0px, #3C8296 -1px 0px, #3C8296 0px -1px, #3C8296 0px 1px, rgba(0, 0, 0, 0.25) 2px 2px, #3C8296 -1px 1px, #3C8296 1px -1px, #3C8296 -1px -1px;
+}
+@media screen and (min-width: 1000px) {
+  body main .block-content.lightblue h2 {
+    font-size: 1.2em;
+  }
+}
