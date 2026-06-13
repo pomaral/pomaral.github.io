@@ -85,6 +85,7 @@ body #battles #battle-statistics {
 }
 body #battles #battle-statistics .stat {
   display: flex;
+  align-items: center;
   background-color: #4196D2;
   border-radius: 5px;
   width: 100%;
@@ -95,11 +96,15 @@ body #battles #battle-statistics .stat div:first-child {
   padding: 5px 10px;
 }
 body #battles #battle-statistics .stat div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   width: 30%;
+  height: 100%;
   color: #FAF096;
   text-align: end;
   background-color: #4BA0E1;
-  padding: 5px 10px;
+  padding: 5px 8px;
   border-radius: 0 5px 5px 0;
 }
 body #battles #battle-list .battle .battle-info .battle-proof {
