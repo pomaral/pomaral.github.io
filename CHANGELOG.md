@@ -1,14 +1,37 @@
+## 1.0.3 - 14/06/2026
+### Descripción
+Registro de los combates 29 al 36 de la Aventura Legendaria 26. Se han corregido algunos errores.
+
+### Añadido
+- Aventura Legendaria 26: combates del 29 al 36.
+- Cobalion:
+  - VS Eco (Architraje).
+  - VS Vito (Verano).
+- Latios:
+  - VS Lance (Variedad 2).
+  - VS Zarala (Verano).
+  - VS Cintia (Verano).
+- Registeel:
+  - VS Cintia (Architraje).
+  - VS Dianta (Traje Especial).
+  - VS Giovanni (Traje S, Voraz).
+
+### Corregido
+- Debido a que Eco (Neocampeón) no tiene soporte de tablero compi en PoMaTools, se ha indicado la habilidad fortuita que tiene Raikou en la descripción del combate.
+- Se ha corregido las ocurrencias del nombre completo de Giovanni (TSV):
+  - Giovanni (Traje S, Voracidad) → Giovanni (Traje S, Voraz).
+
 ## 1.0.2 - 13/06/2026
 ### Descripción
-Registro de los combates 17 al 28 de la Aventura Legendaria 26
+Registro de los combates 17 al 28 de la Aventura Legendaria 26. Se han corregido algunos errores.
 
 ### Añadido
 - Aventura Legendaria 26: combates del 17 al 28.
-- Cobalon:
+- Cobalion:
   - VS Selene (Neocampeona).
   - VS Elio (Neocampeón).
   - VS Eco (Neocampeón).
-  - VS Máximo (Architraje)
+  - VS Máximo (Architraje).
 - Latios:
   - VS Rojo (Neocampeón).
   - VS Hoja (Neocampeona).
