@@ -1,3 +1,22 @@
+
+## 1.0.4 - 14/06/2026
+### Descripción
+Registro de los combates 37 al 44 de la Aventura Legendaria 26.
+
+### Añadido
+- Aventura Legendaria 26: combates del 37 al 44.
+- Cobalion:
+  - VS Rojo (1996).
+  - VS Serena (Salón de Entrenadores).
+  - VS Malva.
+- Latios:
+  - VS Grusha.
+  - VS Corelia (Traje S).
+  - VS Lysson.
+- Registeel:
+  - VS Luka.
+  - VS Lira (Traje S).
+
 ## 1.0.3 - 14/06/2026
 ### Descripción
 Registro de los combates 29 al 36 de la Aventura Legendaria 26. Se han corregido algunos errores.
