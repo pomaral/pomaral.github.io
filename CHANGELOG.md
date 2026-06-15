@@ -1,3 +1,36 @@
+## 1.0.5 - 15/06/2026
+### Descripción
+Registro de los combates 45 al 60 de la Aventura Legendaria 26. Se ha modificado la dificultad de algunos combates. Se han corregido algunos errores
+
+### Añadido
+- Aventura Legendaria 26: combates del 45 al 60.
+- Cobalion:
+  - VS Levi.
+  - VS Gloria (Aniversario).
+  - VS Rojo (Traje S, Rayo).
+  - VS Cintia (Traje S, Aural).
+  - VS Florian (Evento).
+- Latios:
+  - VS Ariana.
+  - VS Berto.
+  - VS Giovanni (Evento).
+  - VS Xana (Carrera de Daño).
+  - VS Gardenia.
+- Registeel:
+  - VS Ciprés.
+  - VS Rojo (Aniversario).
+  - VS Cayena.
+  - VS Hoja.
+  - VS Cristi (Academia).
+  - VS Volus (Domador Pokémon).
+
+### Corregido
+- Se han corregido los tableros compi de los siguientes combates:
+  - Cobalion VS Florian (Evento).
+
+### Cambiado
+- Se han modificado los niveles de dificultad de algunos combates:
+  - Registeel VS Rojo (Aniversario): Normal → Difícil.
 
 ## 1.0.4 - 14/06/2026
 ### Descripción
@@ -37,7 +70,7 @@ Registro de los combates 29 al 36 de la Aventura Legendaria 26. Se han corregido
 
 ### Corregido
 - Debido a que Eco (Neocampeón) no tiene soporte de tablero compi en PoMaTools, se ha indicado la habilidad fortuita que tiene Raikou en la descripción del combate.
-- Se ha corregido las ocurrencias del nombre completo de Giovanni (TSV):
+- Se han corregido las ocurrencias del nombre completo de Giovanni (TSV):
   - Giovanni (Traje S, Voracidad) → Giovanni (Traje S, Voraz).
 
 ## 1.0.2 - 13/06/2026
@@ -65,7 +98,7 @@ Registro de los combates 17 al 28 de la Aventura Legendaria 26. Se han corregido
 ### Corregido
 - Los estilos del bloque de estadísticas de combate (número de victorias y compis usados) han sido corregidos para que el contenido no se desajuste.
 - En el sumario de combates de Cobalion VS Bel (Neocampeona) se repetía el bloque AL22. Se ha corregido para que se muestre como AL26.
-- El combate de la Aventura Legendaria 22: Registeel VS Kalm (NC) no tenía la habilidad fortuita correcta y ha sido corregida:
+- El combate de la Aventura Legendaria 22: Registeel VS Kalm (Neocampeón) no tenía la habilidad fortuita correcta y ha sido corregida:
   - Acción Veloz +1 → Acción Veloz +2
 
 ## 1.0.1 - 13/06/2026
