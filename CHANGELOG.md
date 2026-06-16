@@ -1,3 +1,31 @@
+## 1.0.6 - 16/06/2026
+### Descripción
+Registro de los combates 61 al 76 de la Aventura Legendaria 26.
+
+### Añadido
+- Aventura Legendaria 26: combates del 61 al 76.
+- Cobalion:
+  - VS Zarala (Traje S).
+  - VS Espinal (Puntos de Combate) y Liam.
+  - VS Pegaso y Chus.
+  - VS Vésper y Bruno.
+  - VS Aurora y Blaine.
+  - VS Paul y Parasect (Sabotaje).
+- Latios:
+  - VS Victor (Evento).
+  - VS Nanci.
+  - VS Hoja (Salón de Entrenadores).
+  - VS Meridia.
+  - VS Matís (Carrera de Daño)
+- Registeel:
+  - VS Carola y Sprigatito (Sabotaje).
+  - VS Morti (Traje S) y Samina (Puntos de Combate).
+  - VS Buzzwole y Sabino.
+  - VS Nocta y Junco (Puntos de Combate).
+  - VS Farfetch'd (Sabotaje) y Selene (Ultra).
+- Se ha añadido información sobre la habilidad fortuita de uno de los Pokémon de huevo:
+  - Registeel VS Carola y **Sprigatito (Sabotaje)**: Movimiento Llenabarras +2.
+
 ## 1.0.5 - 15/06/2026
 ### Descripción
 Registro de los combates 45 al 60 de la Aventura Legendaria 26. Se ha modificado la dificultad de algunos combates. Se han corregido algunos errores
