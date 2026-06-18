@@ -1,3 +1,38 @@
+## 1.0.7 - 18/06/2026
+### Descripción
+Registro de los combates 77 al 92 de la Aventura Legendaria 26. Se han corregido algunos errores. Se ha modificado la dificultad de algunos combates.
+
+### Añadido
+- Aventura Legendaria 26: combates del 77 al 92.
+- Cobalion:
+  - VS Blasco (Salón de Entrenadores) y Kalm (Salón de Entrenadores).
+  - VS Maya (Año Nuevo) y Gengar (Apoyo).
+  - VS Maya y Electrode (Sabotaje).
+  - VS Henzo y Roxy (Salón de Entrenadores).
+  - VS Pinsir (Apoyo) y Acromo.
+- Latios:
+  - VS Alik (Salón de Entrenadores).
+  - VS Lia.
+  - VS Camila (Salón de Entrenadores).
+  - VS Plata (Traje S).
+  - VS Gladio (Carrera de Daño).
+  - VS Serena (Traje S).
+- Registeel:
+  - VS Percy y Mencía (Carrera de Daño).
+  - VS Dreo y Nereida (Traje S).
+  - VS Iris (Salón de Entrenadores) y Aza (Traje S).
+  - VS Rojo y Bruno.
+  - VS Laureano (TE) y Kahili.
+
+### Corregido
+- Las pistas del combate Registeel VS Farfetch'd (Sabotaje) y Selene (Ultra) no estaban completas en la página de combates de Registeel. Se ha añadido la información que faltaba.
+- El combate de la Aventura Legendaria 22: Latios VS Serena (Traje S) no tenía la habilidad fortuita correcta y ha sido corregida:
+  - Entrada Veloz +2 → Acción Veloz +2.
+
+### Cambiado
+- Se han modificado los niveles de dificultad de algunos combates:
+  - Latios VS Serena (Traje S): Normal → Difícil.
+
 ## 1.0.6 - 16/06/2026
 ### Descripción
 Registro de los combates 61 al 76 de la Aventura Legendaria 26.
@@ -28,7 +63,7 @@ Registro de los combates 61 al 76 de la Aventura Legendaria 26.
 
 ## 1.0.5 - 15/06/2026
 ### Descripción
-Registro de los combates 45 al 60 de la Aventura Legendaria 26. Se ha modificado la dificultad de algunos combates. Se han corregido algunos errores
+Registro de los combates 45 al 60 de la Aventura Legendaria 26. Se han corregido algunos errores. Se ha modificado la dificultad de algunos combates.
 
 ### Añadido
 - Aventura Legendaria 26: combates del 45 al 60.
