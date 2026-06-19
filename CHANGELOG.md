@@ -1,3 +1,25 @@
+## 1.0.8 - 19/06/2026
+### Descripción
+Registro de los combates 93 al 104 de la Aventura Legendaria 26.
+
+### Añadido
+- Aventura Legendaria 26: combates del 93 al 104.
+- Cobalion:
+  - VS Nereida (Salón de Entrenadores) y Azul.
+  - VS Máximo (Evento) y Sina.
+  - VS Ciprián y Laureano.
+  - VS Chase y Helio.
+- Latios:
+  - VS Laureano (Salón de Entrenadores).
+  - VS Damián (Salón de Entrenadores).
+  - VS Erika (Traje S).
+  - VS León.
+- Registeel:
+  - VS Elio (Variedad) y Blanca (Navidad).
+  - VS Azul (Traje S) y Gladio.
+  - VS Elio (Ultra) y Dianta (Salón de Entrenadores).
+  - VS Clavel y Mananti.
+
 ## 1.0.7 - 18/06/2026
 ### Descripción
 Registro de los combates 77 al 92 de la Aventura Legendaria 26. Se han corregido algunos errores. Se ha modificado la dificultad de algunos combates.
