@@ -1,3 +1,32 @@
+## 1.0.9 - 22/06/2026
+### Descripción
+Finaliza la Aventura Legendaria 26. Queda pendiente registrar los combates 105 a 144. Se han corregido algunos errores. Se ha modificado la dificultad de algunos combates.
+
+### Añadido
+- Se agrega la Aventura Legendaria 26 al Índice de Aventuras Legendarias.
+
+### Cambiado
+- Registeel, Latios y Cobalion ya no aparecen resaltados en los menús de PoMaRAL.
+- La Aventura Legendaria 26 ya no aparece resaltada en los menús de PoMaRAL.
+- Se han modificado los niveles de dificultad de algunos combates:
+  - Cobalion VS Sachiko (Puntos de Combate) y Lysson (Traje S): Normal → Experto.
+  - Registeel VS Morti (Puntos de Combate) y Giovanni (Traje S): Normal → Difícil.
+  - Registeel VS Cheren y Aníbal: Normal → Difícil.
+  - Registeel VS Selene y Kangaskhan (Sabotaje): Normal → Superexperto.
+
+### Corregido
+- Se han corregido los textos de las pistas de los siguientes combates:
+  - Cobalion VS Rojo (Traje S, Rayo).
+  - Registeel VS Lira (Traje S).
+  - Cobalion VS Chase y Helio.
+  - Registeel VS Adamas y Brock (Traje S).
+  - Registeel VS Beni y Quinoa.
+- Se han corregido los valores de determinados compi de los siguientes combates:
+  - En la página de Latios, el combate contra Hoja (Neocampeona) no muestra la versión más actual.
+  - Cobalion VS Juliana (Aniversario): 3/5 EXR → 5/5 EXR.
+  - Registeel VS Volus (Domador Pokémon): 1/5 EX → 4/5 EXR.
+- Se ha corregido el tablero y la habilidad fortuita de Helio y Palkia en su combate contra Cobalion.
+
 ## 1.0.8 - 19/06/2026
 ### Descripción
 Registro de los combates 93 al 104 de la Aventura Legendaria 26.
