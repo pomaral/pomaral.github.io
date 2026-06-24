@@ -1,3 +1,60 @@
+## 1.0.10 - 24/06/2026
+### Descripción
+Registro de los combates 105 al 144 de la Aventura Legendaria 26. Se han añadido más detalles en las pistas de algunos combates.
+
+### Añadido
+- Aventura Legendaria 26: combates del 105 al 144.
+- Cobalion:
+  - VS Blanca (Gimnasio) y Blanca.
+  - VS Registeel y Solgaleo.
+  - VS Chris (Puntos de Combate) y N (Aniversario).
+  - VS Regirock y N (Traje S).
+  - VS Lem (Puntos de Combate) y Liza.
+  - VS Plubio y Aura (Neocampeona).
+  - VS Mencía y Teniente Surge.
+  - VS Israel (Puntos de Combate)  y Lionel.
+  - VS Sonia y Nákara (Salón de Entrenadores).
+  - VS Bruno (Traje S) y Fausto.
+  - VS Teniente Surge (Puntos de Combate) y Azul (Evento).
+  - VS Erika y Lira.
+  - VS Gerania y Camila.
+- Latios:
+  - VS Lionel (Salón de Entrenadores).
+  - VS Morti (Salón de Entrenadores).
+  - VS Maya (Salón de Entrenadores).
+  - VS Nívea.
+  - VS Nákara.
+  - VS Gladio (Traje S).
+  - VS Nereida.
+  - VS Misty (Traje S).
+  - VS Ástrid.
+  - VS Luka (Academia).
+  - VS Matís.
+  - VS Eva.
+  - VS Clavel (Academia Uva).
+- Registeel:
+  - VS Fátima y Cintia (Traje S, Arqueóloga).
+  - VS Grusha (Gimnasio) y Tilo (Carrera de Daño).
+  - VS Morti (Puntos de Combate) y Giovanni (Traje S).
+  - VS Kiawe y Marcial.
+  - VS Cheren y Aníbal.
+  - VS Adamas y Brock (Traje S).
+  - VS Roy (Salón de Entrenadores) y Berto (Traje S).
+  - VS Beni y Quinoa.
+  - VS Camus (Pascua) y Royale, el Enmascarado.
+  - VS Nanci (Academia) y Blasco.
+  - VS Florian y Vito.
+  - VS Mento e Israel (Popurrí).
+  - VS Alecrán y Hitmontop (Sabotaje).
+  - VS Selene y Kangaskhan (Sabotaje).
+- Se han añadido más detalles, con el fin de orientar mejor a los jugadores, en las pistas de los siguientes combates:
+  - Cobalion VS Chris (Puntos de Combate) y N (Aniversario).
+  - Registeel VS Kiawe y Marcial.
+  - Cobalion VS Plubio y Aura (Neocampeona).
+
+### Cambiado
+- Se han modificado todas las ocurrencias de *Protagonista* por el nombre de *Jugador*.
+
 ## 1.0.9 - 22/06/2026
 ### Descripción
 Finaliza la Aventura Legendaria 26. Queda pendiente registrar los combates 105 a 144. Se han corregido algunos errores. Se ha modificado la dificultad de algunos combates.
@@ -271,3 +328,4 @@ Versión inicial del proyecto.
   - Tapu Bulu.
 - Preguntas frecuentes (FAQ).
 - Iniciada Aventura Legendaria 26.
+- 
