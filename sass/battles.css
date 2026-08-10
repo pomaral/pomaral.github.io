@@ -1,0 +1,420 @@
+@charset "UTF-8";
+body {
+  margin-block-end: 75px;
+}
+body nav {
+  display: flex;
+  align-items: center;
+  background-color: #64A0BE;
+  font-family: Geometric;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 -5px 5px 0 rgba(0, 0, 0, 0.25);
+}
+body nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding-inline-start: 10px;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 5px 10px;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  cursor: grab;
+  -webkit-overflow-scrolling: touch;
+}
+body nav ul::-webkit-scrollbar {
+  display: none;
+}
+body nav ul li {
+  font-size: 10px;
+  background-color: #87AFBE;
+  border: 2px solid #C8D7DC;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.25);
+  width: 55px;
+  transition: 0.2s;
+  flex: 0 0 auto;
+  padding-inline: 5px;
+  text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, #2D5A6E 1px 1px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px;
+}
+body nav ul li:hover {
+  transform: scale(1.05);
+}
+body nav ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+}
+body nav ul li a img {
+  width: 26px;
+  margin-inline-end: 5px;
+}
+body nav ul li a span {
+  text-align: center;
+  justify-self: center;
+}
+body nav ul li #index-link {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+body nav ul #webpage-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EDF7F7;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  cursor: default;
+}
+body nav ul #webpage-active:hover {
+  transform: none;
+}
+body nav ul .current-la {
+  position: relative;
+  border-color: #A54646;
+  background-color: #C88282;
+  text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px;
+}
+body nav ul .current-la::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 3px;
+  width: 10px;
+  height: 15px;
+  background: url("../img/media/alert_icon.png") no-repeat center/contain;
+  z-index: 2;
+}
+body nav ul .current-la a {
+  color: #FFFFFF;
+}
+body nav ul .current-la-active {
+  position: relative;
+  border-color: #D29191;
+  background-color: #FFFFFF;
+  text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px;
+  box-shadow: none;
+}
+body nav ul .current-la-active::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 3px;
+  width: 10px;
+  height: 15px;
+  background: url("../img/media/alert_icon.png") no-repeat center/contain;
+  z-index: 2;
+}
+body nav ul .current-la-active:hover {
+  transform: none;
+}
+body nav ul .current-la-active span {
+  color: #F2E1E1;
+}
+body nav ul #index-button {
+  width: 80px;
+}
+body #pk-opponents {
+  display: flex;
+  flex-direction: column;
+}
+body #pk-opponents .pk-opponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(70, 120, 140, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+body #pk-opponents .pk-weakness {
+  height: 35px;
+  margin-block: 10px;
+}
+body #pk-opponents .pk-advice {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  background-color: #46788C;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+body #pk-opponents .pk-advice:hover {
+  transform: scale(1.02);
+}
+body #pk-opponents .pk-advice .pk-advice-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
+body #pk-opponents .pk-advice .pk-advice-button h3 {
+  font-family: Geometric;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 0;
+}
+body #pk-opponents .pk-advice .pk-advice-button img {
+  position: absolute;
+  right: 0;
+  width: 20px;
+}
+body #pk-opponents .pk-advice .pk-advice-info {
+  display: none;
+  flex-direction: column;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #FFFFFF;
+  width: 100%;
+  margin-block-start: 10px;
+}
+body #pk-opponents .pk-advice .pk-advice-info p {
+  margin-block: 5px;
+}
+body #pk-opponents .pk-advice .pk-advice-info .la-extended-info {
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #46788C;
+  margin-block: 5px;
+  padding-block: 5px;
+  background-color: #F0FAFF;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+body #pk-opponents .pk-advice .pk-advice-info .la-extended-info:hover {
+  transform: scale(1.02);
+}
+body #battles {
+  display: flex;
+  flex-direction: column;
+}
+body #battles #battle-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+body #battles #battle-list .battle {
+  display: flex;
+  flex-direction: column;
+  background-color: #B9E1E1;
+  border-radius: 10px;
+  width: 100%;
+}
+body #battles #battle-list .battle .battle-header {
+  display: flex;
+  align-items: center;
+  background-color: #3C8296;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+body #battles #battle-list .battle .battle-header img {
+  width: 50px;
+  border-start-start-radius: 10px;
+}
+body #battles #battle-list .battle .battle-header h3 {
+  margin: 0 10px;
+  font-family: FOT NewRodin Pro;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, rgba(0, 0, 0, 0.25) 2px 2px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px;
+}
+body #battles #battle-list .battle .battle-header .difficulty {
+  margin-left: auto;
+  font-family: Josefin Sans;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100px;
+  border-radius: 5px;
+  padding-block: 4px 2px;
+  margin-inline-end: 5px;
+}
+body #battles #battle-list .battle .battle-header .difficulty.normal {
+  background-color: #96C864;
+  border: 1px solid #55822D;
+  text-shadow: #55822D 1px 0px, #55822D -1px 0px, #55822D 0px -1px, #55822D 0px 1px, #55822D 1px 1px, #55822D -1px 1px, #55822D 1px -1px, #55822D -1px -1px;
+}
+body #battles #battle-list .battle .battle-header .difficulty.normal::before {
+  content: "Normal";
+}
+body #battles #battle-list .battle .battle-header .difficulty.dificil {
+  background-color: #F0A03C;
+  border: 1px solid #965A1E;
+  text-shadow: #965A1E 1px 0px, #965A1E -1px 0px, #965A1E 0px -1px, #965A1E 0px 1px, #965A1E 1px 1px, #965A1E -1px 1px, #965A1E 1px -1px, #965A1E -1px -1px;
+}
+body #battles #battle-list .battle .battle-header .difficulty.dificil::before {
+  content: "Difícil";
+}
+body #battles #battle-list .battle .battle-header .difficulty.muy_dificil {
+  background-color: #EB5F28;
+  border: 1px solid #874619;
+  text-shadow: #874619 1px 0px, #874619 -1px 0px, #874619 0px -1px, #874619 0px 1px, #874619 1px 1px, #874619 -1px 1px, #874619 1px -1px, #874619 -1px -1px;
+}
+body #battles #battle-list .battle .battle-header .difficulty.muy_dificil::before {
+  content: "Muy difícil";
+}
+body #battles #battle-list .battle .battle-header .difficulty.experto {
+  background-color: #D72D1E;
+  border: 1px solid #871E14;
+  text-shadow: #871E14 1px 0px, #871E14 -1px 0px, #871E14 0px -1px, #871E14 0px 1px, #871E14 1px 1px, #871E14 -1px 1px, #871E14 1px -1px, #871E14 -1px -1px;
+}
+body #battles #battle-list .battle .battle-header .difficulty.experto::before {
+  content: "Experto";
+}
+body #battles #battle-list .battle .battle-header .difficulty.superexperto {
+  background-color: #3C7DE6;
+  border: 1px solid #2855AA;
+  text-shadow: #2855AA 1px 0px, #2855AA -1px 0px, #2855AA 0px -1px, #2855AA 0px 1px, #2855AA 1px 1px, #2855AA -1px 1px, #2855AA 1px -1px, #2855AA -1px -1px;
+}
+body #battles #battle-list .battle .battle-header .difficulty.superexperto::before {
+  content: "Superexperto";
+}
+body #battles #battle-list .battle .battle-info {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  body #battles #battle-list .battle .battle-info {
+    flex-direction: row;
+    padding-inline-start: 5px;
+  }
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 100px));
+  justify-content: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  margin: 5px auto;
+}
+@media screen and (min-width: 1024px) {
+  body #battles #battle-list .battle .battle-info .sync-pairs-team {
+    grid-template-columns: repeat(3, 80px);
+    grid-template-columns: repeat(3, 90px);
+  }
+}
+@media screen and (min-width: 1400px) {
+  body #battles #battle-list .battle .battle-info .sync-pairs-team {
+    grid-template-columns: repeat(3, 100px);
+  }
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9BD2D2;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 5px;
+  transition: 0.2s;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-icon, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-icon, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-icon {
+  width: 80px;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-name {
+  display: flex;
+  align-items: center;
+  font-family: Geometric;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, #2D5A6E 1px 1px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px;
+  margin: 5px 2px;
+  height: 28px;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a:hover, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon:hover, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space:hover {
+  transform: scale(1.02);
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon {
+  background-color: #E6F0BE;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-name {
+  cursor: default;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon:hover {
+  transform: none;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space {
+  background-color: #96C3C8;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space:hover {
+  transform: none;
+}
+body #battles #battle-list .battle .battle-info .battle-button-panel {
+  display: flex;
+  justify-content: center;
+  background-color: #9BD2D2;
+  margin: 5px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 1024px) {
+  body #battles #battle-list .battle .battle-info .battle-button-panel {
+    display: none;
+  }
+}
+body #battles #battle-list .battle .battle-info .battle-button-panel div {
+  font-family: Geometric;
+  color: #2D5A6E;
+  font-size: 12px;
+  text-align: center;
+  background-color: #C8EBF4;
+  border: 2px solid #2D5A6E;
+  border-radius: 20px;
+  padding-block: 2px;
+  width: 80px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.2s;
+}
+body #battles #battle-list .battle .battle-info .battle-button-panel div.active {
+  background-color: #8CAFB4;
+  box-shadow: none;
+}
+body #battles #battle-list .battle .battle-info .battle-button-panel div:hover {
+  transform: scale(1.05);
+}
+body #battles #battle-list .battle .battle-info .battle-tips-info {
+  display: none;
+  background-color: #64B4A5;
+  border: 2px solid #326473;
+  border-radius: 10px;
+  margin: 5px;
+  width: 100%;
+}
+body #battles #battle-list .battle .battle-info .battle-tips-info p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  color: #326473;
+  background-color: #A5D2C8;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 1024px) {
+  body #battles #battle-list .battle .battle-info .battle-tips-info p {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}

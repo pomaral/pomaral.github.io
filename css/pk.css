@@ -39,7 +39,20 @@ body h1.grass {
   background: linear-gradient(#69B964, #46A04B);
 }
 body nav ul li {
-  width: 65px;
+  width: 85px;
+}
+body nav ul li a, body nav ul li#webpage-active {
+  display: grid;
+  grid-template-columns: 26px 1fr;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+body nav ul li a img, body nav ul li#webpage-active img {
+  width: 26px;
+}
+body nav ul li#webpage-active span {
+  text-align: center;
 }
 body #pk-opponents .pk-opponent {
   width: clamp(270px, 50vw, 415px);
@@ -110,8 +123,10 @@ body #battles #battle-list .battle .battle-info .battle-recap {
 body #battles #battle-list .battle .battle-info .battle-recap a {
   width: 55px;
   text-decoration: none;
-  font-size: 12px;
-  font-family: Geometric;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, #2D5A6E 1px 1px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px;
   text-align: center;
   color: #FFFFFF;
   background-color: #87AFBE;
@@ -136,4 +151,5 @@ body #battles #battle-list .battle .battle-info .battle-recap a .name-version {
   font-size: 8px;
   font-style: italic;
   color: #3C8296;
+  text-shadow: none;
 }

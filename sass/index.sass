@@ -62,64 +62,102 @@ body
                 z-index: 2
 
         .block-content.green
-            #fold-button
-                width: 30px
-                border: 3px solid #376E5F
-                border-radius: 50px
-                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-                margin-block: 20px
-                cursor: pointer
-                @media screen and (min-width: 860px)
+
+            &.mobile
+                @media screen and (min-width: 890px)
                     display: none
 
-            #lg-list
-                display: none
-                grid-template-columns: 1fr
-                row-gap: 20px
-                @media screen and (min-width: 620px)
-                    grid-template-columns: repeat(2, 1fr)
-                    column-gap: 20px
-                @media screen and (min-width: 860px)
-                    display: grid !important
-                    grid-template-columns: repeat(3, 1fr)
-                    margin-block-start: 20px
-                @media screen and (min-width: 1100px)
-                    grid-template-columns: repeat(4, 1fr)
-                @media screen and (min-width: 1200px)
-                    margin-block-start: 50px
-                @media screen and (min-width: 1340px)
-                    grid-template-columns: repeat(5, 1fr)
-
-                &.active
-                    display: grid
-
-                .lg-card
+                #lg-list
                     display: flex
                     flex-direction: column
-                    text-decoration: none
-                    background-color: #E1F5E6
-                    border: 5px solid #87DCBE
-                    border-radius: 20px
-                    padding: 10px
-                    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
-                    width: 100%
-                    transition: 0.2s
+                    row-gap: 10px
+                    margin-block-start: 20px
 
-                    img
+                    .lg-banner
+                        display: flex
+                        flex-direction: column
+                        text-decoration: none
+                        background-color: #E1F5E6
+                        border: 5px solid #87DCBE
+                        border-radius: 20px
+                        padding: 10px
+                        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
                         width: 100%
-                        border-radius: 10px
-                        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+                        transition: 0.2s
 
-                    span
-                        font-family: FOT NewRodin Pro
-                        font-size: 14px
-                        text-align: center
-                        color: #376E5F
-                        text-shadow: rgba(0, 0, 0, 0.1) 1px 1px
-                        margin-block: 10px 5px
+                        .lg-image
+                            position: relative
 
-                    &:hover
-                        transform: scale(1.02)
+                            img
+                                display: block
+                                width: 100%
+                                border-radius: 10px
+                                box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+
+                            span
+                                position: absolute
+                                inset: 0
+                                display: flex
+                                justify-content: flex-start
+                                align-items: center
+                                font-family: FOT NewRodin Pro
+                                font-size: calc(100vw * 9 / 320) !important
+                                text-align: center
+                                color: #FFFFFF
+                                text-shadow: #3C278C 1px 0px, #3C278C -1px 0px, #3C278C 0px -1px, #3C278C 0px 1px, #3C278C 1px 1px, #3C278C -1px 1px, #3C278C 1px -1px, #3C278C -1px -1px
+                                margin-inline-start: 10px
+
+                        &:hover
+                            transform: scale(1.02)
+
+
+            &.pc
+                display: none
+                @media screen and (min-width: 890px)
+                    display: block
+
+                #lg-list
+                    grid-template-columns: 1fr
+                    row-gap: 20px
+                    column-gap: 10px
+                    @media screen and (min-width: 890px)
+                        display: grid !important
+                        grid-template-columns: repeat(3, 1fr)
+                        margin-block-start: 20px
+                    @media screen and (min-width: 1100px)
+                        grid-template-columns: repeat(4, 1fr)
+                    @media screen and (min-width: 1220px)
+                        margin-block-start: 50px
+                    @media screen and (min-width: 1340px)
+                        grid-template-columns: repeat(5, 1fr)
+
+                    .lg-card
+                        display: flex
+                        flex-direction: column
+                        text-decoration: none
+                        background-color: #E1F5E6
+                        border: 5px solid #87DCBE
+                        border-radius: 20px
+                        padding: 10px
+                        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+                        width: 100%
+                        transition: 0.2s
+
+                        img
+                            width: 100%
+                            border-radius: 10px
+                            box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+
+                        span
+                            font-family: FOT NewRodin Pro
+                            font-size: 14px
+                            text-align: center
+                            color: #376E5F
+                            text-shadow: rgba(0, 0, 0, 0.1) 1px 1px
+                            margin-block: 10px 5px
+
+                        &:hover
+                            transform: scale(1.02)
 
         .block-content.blue
             #pk-list
@@ -136,7 +174,7 @@ body
                     grid-template-columns: repeat(5, 1fr)
                 @media screen and (min-width: 1000px)
                     grid-template-columns: repeat(6, 1fr)
-                @media screen and (min-width: 1200px)
+                @media screen and (min-width: 1220px)
                     grid-template-columns: repeat(7, 1fr)
                     margin-block-start: 50px
 

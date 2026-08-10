@@ -1,3 +1,19 @@
+## 1.1.0 - 10/08/2026
+### Descripción
+Iniciada la Aventura Legendaria 27. Mejoras de visualización de algunos menús y apartados de la web.
+
+### Cambiado
+- El menú de navegación de Pokémon legendarios ahora tiene iconos de los respectivos Pokémon para facilitar al usuario la búsqueda. También se ha añadido mayor claridad a los textos para que sea más legible.
+- El Índice de Aventuras Legendarias ahora se muestra como un listado vertical en pantallas más pequeñas para que su navegación sea más intuitiva.
+- La tipografía del nombre de los compis, su potencial y la de los menús de navegación (tanto de Aventuras Legendarias como de Pokémon legendarios) ha sido cambiada a Roboto para que sea más legible.
+- Se ha dado mayor claridad al potencial de los compis usados en cada combate. Además, ahora se muestra la cantidad de energía extra que posee cada compi en su tablero.
+- Se ha extendido la información sobre los consejos para vencer a Moltres.
+
+### Corregido
+- El color del header de Latios ha sido corregido para que coincida con el tipo de su movimiento compi como en el resto de Pokémon legendarios.
+- Algunos tableros han sido corregidos debido a que algunos compis mostraban un potencial menor en Aventuras Legendarias posteriores a otras cuyo potencial era mayor.
+- Algunos enlaces eran erróneos y han sido corregidos.
+
 ## 1.0.10 - 24/06/2026
 ### Descripción
 Registro de los combates 105 al 144 de la Aventura Legendaria 26. Se han añadido más detalles en las pistas de algunos combates.
@@ -328,4 +344,3 @@ Versión inicial del proyecto.
   - Tapu Bulu.
 - Preguntas frecuentes (FAQ).
 - Iniciada Aventura Legendaria 26.
-- 

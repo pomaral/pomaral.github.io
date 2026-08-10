@@ -40,6 +40,8 @@ body
                 width: 55px
                 transition: 0.2s
                 flex: 0 0 auto
+                padding-inline: 5px
+                text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, #2D5A6E 1px 1px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px
                 &:hover
                     transform: scale(1.05)
 
@@ -53,18 +55,24 @@ body
                     height: 100%
 
                     img
-                        width: 30px
+                        width: 26px
                         margin-inline-end: 5px
 
+                    span
+                        text-align: center
+                        justify-self: center
+
                 #index-link
-                    display: flex
+                    display: grid
+                    grid-template-columns: 26px 1fr
                     align-items: center
+                    column-gap: 5px
 
             #webpage-active
                 display: flex
                 align-items: center
                 justify-content: center
-                color: #87AFBE
+                color: #EDF7F7
                 background-color: #FFFFFF
                 box-shadow: none
                 cursor: default
@@ -75,6 +83,7 @@ body
                 position: relative
                 border-color: #A54646
                 background-color: #C88282
+                text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px
                 &::after
                     content: ""
                     position: absolute
@@ -87,14 +96,11 @@ body
                 a
                     color: #FFFFFF
 
-            #current-la-active
+            .current-la-active
                 position: relative
-                display: flex
-                align-items: center
-                justify-content: center
                 border-color: #D29191
                 background-color: #FFFFFF
-                color: #C88282
+                text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px
                 box-shadow: none
                 &::after
                     content: ""
@@ -107,6 +113,9 @@ body
                     z-index: 2      
                 &:hover
                     transform: none   
+
+                span
+                    color: #F2E1E1
 
             #index-button
                 width: 80px

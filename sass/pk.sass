@@ -37,8 +37,20 @@ body
     nav
         ul
             li
-                width: 65px
+                width: 85px
 
+                a, &#webpage-active
+                    display: grid
+                    grid-template-columns: 26px 1fr
+                    align-items: center
+                    column-gap: 5px
+
+                    img
+                        width: 26px
+
+                &#webpage-active
+                    span
+                        text-align: center
 
     #pk-opponents
 
@@ -117,7 +129,8 @@ body
                             width: 55px
                             text-decoration: none
                             font-size: 12px
-                            font-family: Geometric
+                            font-family: Roboto
+                            font-weight: bold
                             text-align: center
                             color: #FFFFFF
                             background-color: #87AFBE

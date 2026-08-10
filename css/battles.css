@@ -6,7 +6,8 @@ body nav {
   display: flex;
   align-items: center;
   background-color: #64A0BE;
-  font-family: Geometric;
+  font-family: Roboto;
+  font-weight: bold;
   height: 50px;
   position: fixed;
   bottom: 0;
@@ -40,6 +41,8 @@ body nav ul li {
   width: 55px;
   transition: 0.2s;
   flex: 0 0 auto;
+  padding-inline: 5px;
+  text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, #2D5A6E 1px 1px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px;
 }
 body nav ul li:hover {
   transform: scale(1.05);
@@ -54,18 +57,25 @@ body nav ul li a {
   height: 100%;
 }
 body nav ul li a img {
-  width: 30px;
+  width: 26px;
   margin-inline-end: 5px;
 }
+body nav ul li a span {
+  text-align: center;
+  justify-self: center;
+}
 body nav ul li #index-link {
-  display: flex;
+  display: grid;
+  grid-template-columns: 26px 1fr;
   align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
 }
 body nav ul #webpage-active {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #87AFBE;
+  color: #EDF7F7;
   background-color: #FFFFFF;
   box-shadow: none;
   cursor: default;
@@ -77,6 +87,7 @@ body nav ul .current-la {
   position: relative;
   border-color: #A54646;
   background-color: #C88282;
+  text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px;
 }
 body nav ul .current-la::after {
   content: "";
@@ -91,17 +102,13 @@ body nav ul .current-la::after {
 body nav ul .current-la a {
   color: #FFFFFF;
 }
-body nav ul #current-la-active {
+body nav ul .current-la-active {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-color: #D29191;
-  background-color: #FFFFFF;
-  color: #C88282;
+  text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px;
   box-shadow: none;
 }
-body nav ul #current-la-active::after {
+body nav ul .current-la-active::after {
   content: "";
   position: absolute;
   top: -5px;
@@ -111,8 +118,11 @@ body nav ul #current-la-active::after {
   background: url("../img/media/alert_icon.png") no-repeat center/contain;
   z-index: 2;
 }
-body nav ul #current-la-active:hover {
+body nav ul .current-la-active:hover {
   transform: none;
+}
+body nav ul .current-la-active span {
+  color: #F2E1E1;
 }
 body nav ul #index-button {
   width: 80px;
@@ -320,16 +330,56 @@ body #battles #battle-list .battle .battle-info .sync-pairs-team a, body #battle
 body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-icon, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-icon, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-icon {
   width: 80px;
 }
-body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-name {
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-name, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment {
   display: flex;
   align-items: center;
-  font-family: Geometric;
+  font-family: Roboto;
+  font-weight: bold;
   font-size: 12px;
   text-align: center;
   color: #FFFFFF;
   text-shadow: #2D5A6E 1px 0px, #2D5A6E -1px 0px, #2D5A6E 0px -1px, #2D5A6E 0px 1px, #2D5A6E 1px 1px, #2D5A6E -1px 1px, #2D5A6E 1px -1px, #2D5A6E -1px -1px;
-  margin: 5px 2px;
-  height: 28px;
+  margin: 3px 2px;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential {
+  width: 100%;
+  font-size: 10px;
+  border: 2px solid #326473;
+  border-radius: 10px;
+  padding-block: 3px;
+  background-color: #6FB2C5;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.max, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.max, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.max {
+  background-color: #E1D264;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.ex, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.ex, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.ex {
+  background: linear-gradient(to right, #BE5D54 0%, #F9816F 10%, #FFA97A 20%, #FFCC71 35%, #99F49A 45%, #00F7D0 55%, #3AD5FB 65%, #BABEFF 78%, #F0ABEE 88%, #FF97B9 100%);
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.sa, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.sa, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.sa {
+  background-color: #2378D2;
+  text-shadow: #14467D 1px 0px, #14467D -1px 0px, #14467D 0px -1px, #14467D 0px 1px, #14467D 1px 1px, #14467D -1px 1px, #14467D 1px -1px, #14467D -1px -1px;
+  color: #FFFABE;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.energy, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.energy, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.energy {
+  width: 50px;
+  background-color: #E6A03C;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.support, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.support, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.support {
+  background-color: #1EA0DC;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.tech, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.tech, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.tech {
+  background-color: #0FC891;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.strike, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.strike, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.strike {
+  background-color: #FA5050;
+}
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.max, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.ex, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.sa, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.energy, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.support, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.tech, body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-investment .potential.strike, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.max, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.ex, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.sa, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.energy, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.support, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.tech, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-investment .potential.strike, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.max, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.ex, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.sa, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.energy, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.support, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.tech, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-investment .potential.strike {
+  border-color: #503C46;
 }
 body #battles #battle-list .battle .battle-info .sync-pairs-team a:hover, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon:hover, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space:hover {
   transform: scale(1.02);
