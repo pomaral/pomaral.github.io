@@ -1,3 +1,29 @@
+## 1.1.1 - 13/06/2026
+### Descripción
+Registro de los combates del 1 al 16 de la Aventura Legendaria 27.
+
+### Añadido
+- Aventura Legendaria 27: combates del 1 al 16.
+- Azelf:
+  - VS Hoja (Neocampeona).
+  - VS Elio (Neocampeón).
+  - VS Liza (Neocampeona).
+  - VS Cass (Traje S).
+  - VS Florian (Aniversario).
+- Regirock:
+  - VS Lira (Neocampeona).
+  - VS Kalm (Neocampeón).
+  - VS Bel (Neocampeona).
+  - VS Corin (Traje S).
+  - VS Gerania (Aniversario).
+  - VS Lionel (Torre Batalla).
+- Moltres:
+  - VS Selene (Neocampeona).
+  - VS Eco (Neocampeón).
+  - VS Lucho (Neocampeón).
+  - VS Juliana (Aniversario).
+  - VS Rojo (Aniversario).
+
 ## 1.1.0 - 10/08/2026
 ### Descripción
 Iniciada la Aventura Legendaria 27. Mejoras de visualización de algunos menús y apartados de la web.
