@@ -1,4 +1,29 @@
-## 1.1.1 - 13/06/2026
+## 1.1.2 - 13/08/2026
+### Descripción
+Registro de los combates del 17 al 28 de la Aventura Legendaria 27.
+
+### Añadido
+- Aventura Legendaria 27: combates del 17 al 28.
+- Azelf:
+  - VS Levi.
+  - VS Ságita.
+  - VS Berto.
+  - VS Alik (Traje S).
+- Regirock:
+  - VS Cinio.
+  - VS Erin.
+  - VS Eco (Architraje).
+  - VS Zarala (Verano).
+- Moltres:
+  - VS Erika (San Valentín).
+  - VS Ságita (Architraje).
+  - VS Máximo (Architraje).
+  - VS Rojo (1996).
+
+### Cambiado
+- Las pistas del combate de Moltres VS Máximo (Architraje) ahora son más claras.
+
+## 1.1.1 - 12/08/2026
 ### Descripción
 Registro de los combates del 1 al 16 de la Aventura Legendaria 27.
 
