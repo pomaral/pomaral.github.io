@@ -1,3 +1,49 @@
+## 1.1.3 - 15/08/2026
+### Descripción
+Registro de los combates del 29 al 56 de la Aventura Legendaria 27. Se han corregido algunos errores.
+
+### Añadido
+- Aventura Legendaria 27: combates del 29 al 56.
+- Azelf:
+  - VS Cayena.
+  - VS Bruno (Traje S).
+  - VS Camus (Pascua) y Ástrid.
+  - VS Mel y Lylia (5º Aniversario).
+  - VS Serra y Roxy (Carrera de Daño).
+  - VS Nanci y Roxy (Evento).
+  - VS Blanca (Gimnasio) y e-Nigma (Evento).
+  - VS Pegaso (Variedad) y Guzmán.
+  - VS Giovanni (Salón de Entrenadores) y Lulú.
+- Regirock:
+  - VS Damián
+  - VS Elaine.
+  - VS Bel.
+  - VS Florian.
+  - VS Henzo.
+  - VS Corin.
+  - VS Grusha.
+  - VS Pegaso.
+  - VS Clavel (Academia Uva).
+  - VS Adamas.
+- Moltres:
+  - VS Cintia (Architraje).
+  - VS Aura (Neocampeona).
+  - VS Volus (Domador Pokémon).
+  - VS Gloria (Aniversario).
+  - VS Lira (Traje S).
+  - VS Misty (Evento) y Máximo (Aniversario).
+  - VS Azul (Salón de Entrenadores) y Erika (Traje S).
+  - VS Sémola y Roxy (Neocampeona).
+  - VS Alana e Israel.
+
+### Corregido
+- En la página de Moltres, el combate contra Erika indicaba mal su nivel de dificultad:
+  - Normal → Difícil.
+- Se ha corregido la descripción de los siguientes combates:
+  - Azelf VS Camus (Pascua) y Ástrid.
+  - Moltres VS Gloria (Aniversario).
+  - Moltres VS Azul (Salón de Entrenadores) y Erika (Traje S).
+
 ## 1.1.2 - 13/08/2026
 ### Descripción
 Registro de los combates del 17 al 28 de la Aventura Legendaria 27.
