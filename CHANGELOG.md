@@ -1,3 +1,30 @@
+## 1.1.4 - 16/08/2026
+### Descripción
+Registro de los combates del 57 al 68 de la Aventura Legendaria 27. Se ha realizado algunas modificaciones.
+
+### Añadido
+- Aventura Legendaria 27: combates del 57 al 68.
+- Azelf:
+  - VS N (Salón de Entrenadores) y Corelia.
+  - VS Rojo y Antón.
+  - VS Maya (Año Nuevo) y Gengar (Apoyo).
+  - VS Dracón y Hiedra (Traje S).
+- Regirock:
+  - VS Aurora.
+  - VS Espinal (Puntos de Combate).
+  - VS Beni.
+  - VS Paul.
+- Moltres:
+  - VS Hoja (Salón de Entrenadores) y Matís.
+  - VS Lapras (Sabotaje) y Rojo (Neocampeón).
+  - VS Machamp (Apoyo) y Luka.
+  - VS Laureano (Traje Especial) y Kahili.
+
+### Cambiado
+- Se han modificado los niveles de dificultad de algunos combates:
+  - Moltres VS Lapras (Sabotaje) y Rojo (Neocampeón): Muy Difícil → Experto.
+- Se ha reemplazado los tableros de la web de Brybry por los de la web de PoMastersTools.
+
 ## 1.1.3 - 15/08/2026
 ### Descripción
 Registro de los combates del 29 al 56 de la Aventura Legendaria 27. Se han corregido algunos errores.
