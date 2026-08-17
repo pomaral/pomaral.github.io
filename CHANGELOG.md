@@ -1,3 +1,25 @@
+## 1.1.5 - 17/08/2026
+### Descripción
+Registro de los combates del 69 al 80 de la Aventura Legendaria 27.
+
+### Añadido
+- Aventura Legendaria 27: combates del 69 al 80.
+- Azelf:
+  - VS Morti (Salón de Entrenadores) y Morti (Academia).
+  - VS Corin (Salón de Entrenadores) y Rika.
+  - VS Dianta (Traje Especial) y Roxy (Verano).
+  - VS Mayla (Puntos de Combate) y Azul (Kanto).
+- Regirock:
+  - VS Yasmina.
+  - VS Máximo (Traje S).
+  - VS Máximo (Evento).
+  - VS Juliana.
+- Moltres:
+  - VS Ciprés y Malva.
+  - VS Zarala (Traje S) y Tristana (Puntos de Combate).
+  - VS Cintia (Verano) y Nanci (Salón de Entrenadores).
+  - VS Brock (Gimnasio) y Dianta (Salón de Entrenadores).
+
 ## 1.1.4 - 16/08/2026
 ### Descripción
 Registro de los combates del 57 al 68 de la Aventura Legendaria 27. Se ha realizado algunas modificaciones.
