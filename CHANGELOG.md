@@ -1,3 +1,45 @@
+## 1.1.6 - 18/08/2026
+### Descripción
+Registro de los combates del 81 al - de la Aventura Legendaria 27. Se han realizado algunas modificaciones.
+
+### Añadido
+- Aventura Legendaria 27: combates del 81 al -.
+- Azelf:
+  - VS Alana (Gimnasio) y Aza (Salón de Entrenadores).
+  - VS Laureano (Salón de Entrenadores) y Eco (Traje S).
+  - VS e-Nigma (Salón de Entrenadores) y Nerio (Traje S).
+  - VS Petra y Samina.
+  - VS Damián (Salón de Entrenadores) y Lionel.
+  - VS Antón (Navidad) y Scyther (Ataque).
+  - VS Lia y Lylia (Salón de Entrenadores).
+  - VS Sachiko (Puntos de Combate) y Sófora.
+- Regirock:
+  - VS Grusha (Gim.) y Kaudan.
+  - VS Brega y Liam.
+  - VS Liza (Salón de Entrenadores) y Aníbal.
+  - VS Chase y Tilo (Traje S).
+  - VS Francine y Giovanni (Traje S).
+  - VS Blas y Quinoa.
+  - VS Catleya (Halloween) y Lucho (Halloween).
+  - VS Kiawe e Inverna (San Valentín).
+- Moltres:
+  - VS Berto (Neocampeón) y Aeroadctyl (Sabotaje).
+  - VS Matís (Academia) y Delila.
+  - VS Clavel y Mananti.
+  - VS Giovanni (Traje S, Voracidad) y Samina (Puntos de Combate).
+  - VS Fero y Plata (Neocampeón).
+  - VS Cristi (Traje S) y Cathy.
+  - VS Elio (Ultra) y Dianta (Traje S).
+  - VS Azul (Traje S) y Lira (Variedad).
+
+### Cambiado
+- Se han modificado los niveles de dificultad de algunos combates:
+  - Regirock VS Francine y Giovanni (Traje S): Normal → Difícil.
+  - Azelf VS Lia y Lylia: Normal → Difícil.
+- Se han corregido las pistas de los siguientes combates:
+  - Moltres VS Cristi (Traje S) y Cathy.
+  - Azelf VS Lia y Lylia (Salón de Entrenadores).
+
 ## 1.1.5 - 17/08/2026
 ### Descripción
 Registro de los combates del 69 al 80 de la Aventura Legendaria 27.
@@ -22,7 +64,7 @@ Registro de los combates del 69 al 80 de la Aventura Legendaria 27.
 
 ## 1.1.4 - 16/08/2026
 ### Descripción
-Registro de los combates del 57 al 68 de la Aventura Legendaria 27. Se ha realizado algunas modificaciones.
+Registro de los combates del 57 al 68 de la Aventura Legendaria 27. Se han realizado algunas modificaciones.
 
 ### Añadido
 - Aventura Legendaria 27: combates del 57 al 68.
