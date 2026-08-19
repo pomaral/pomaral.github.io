@@ -1,9 +1,31 @@
-## 1.1.6 - 18/08/2026
+## 1.1.7 - 19/08/2026
 ### Descripción
-Registro de los combates del 81 al - de la Aventura Legendaria 27. Se han realizado algunas modificaciones.
+Registro de los combates del 105 al 116 de la Aventura Legendaria 27.
 
 ### Añadido
-- Aventura Legendaria 27: combates del 81 al -.
+- Aventura Legendaria 27: combates del 105 al 116.
+- Azelf:
+  - VS Aloe y N.
+  - VS Alcremie y Dianta.
+  - VS Malta y Bel (Carrera de Daño).
+  - VS Nerio (Salón de Entrenadores) y Cheren (Carrera de Daño).
+- Regirock:
+  - VS Lionel (Salón de Entrenadores) y Drácena.
+  - VS Lulú (San Valentín) y Alik (Salón de Entrenadores).
+  - VS Victor (San Valentín) y Tilo.
+  - VS Nívea y Bruno.
+- Moltres:
+  - VS Malta (Puntos de Combate) y Mencía (Traje S).
+  - VS Morti (Traje S) y Eco.
+  - VS Vésper y Rojo (Traje S).
+  - VS Paolo y Cristi.
+
+## 1.1.6 - 18/08/2026
+### Descripción
+Registro de los combates del 81 al 104 de la Aventura Legendaria 27. Se han realizado algunas modificaciones.
+
+### Añadido
+- Aventura Legendaria 27: combates del 81 al 104.
 - Azelf:
   - VS Alana (Gimnasio) y Aza (Salón de Entrenadores).
   - VS Laureano (Salón de Entrenadores) y Eco (Traje S).
