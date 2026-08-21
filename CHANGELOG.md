@@ -1,3 +1,37 @@
+## 1.1.8 - 21/08/2026
+### Descripción
+Registro de los combates del 117 al 136 de la Aventura Legendaria 27. Se han realizado algunas modificaciones.
+
+### Añadido
+- Aventura Legendaria 27: combates del 117 al 136.
+- Azelf:
+  - VS Naboru y Violeta.
+  - VS Mento y Delos.
+  - VS Néstor (Variedad) y Cintia (Variedad).
+  - VS Brock y Lucho (Traje S).
+  - VS Sylveon (Sabotaje) y Gladio (Traje S).
+  - VS Maya (Salón de Entrenadores) y Karen.
+  - VS Serena (Salón de Entrenadores) y Nanci (Traje Especial).
+- Regirock:
+  - VS Blanca (Navidad) y Laureano.
+  - VS Fátima y Lario.
+  - VS Xana y Aza (Alola).
+  - VS Florian (Academia) y Bruno (Neocampeón).
+  - VS Lotto y Cobalion.
+  - VS Nerio y Gloria.
+- Moltres:
+  - VS Blasco (Salón de Entrenadores) y Mencía (Evento).
+  - VS Nanci (Neocampeona) y N (Carrera de Daño).
+  - VS Destra y Mayla.
+  - VS Gaia y Selene (Ultra).
+  - VS Zarala y Kukui.
+  - VS Hoja y Brock (Traje S).
+  - VS Azul (Neocampeón) y Roco.
+
+### Cambiado
+- Se han modificado los niveles de dificultad de algunos combates:
+  - Regirock VS Nerio y Gloria: Difícil → Muy difícil.
+
 ## 1.1.7 - 19/08/2026
 ### Descripción
 Registro de los combates del 105 al 116 de la Aventura Legendaria 27.
