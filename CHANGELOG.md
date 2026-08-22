@@ -1,3 +1,32 @@
+## 1.1.9 - 22/08/2026
+### Descripción
+Finaliza la Aventura Legendaria 27. Registro de los combates del 137 al 155 de la Aventura Legendaria 27.
+
+### Añadido
+- Aventura Legendaria 27: combates del 137 al 155.
+- Azelf:
+  - VS Cintia (Traje S, Aural) y Fausto.
+  - VS e-Nigma y Camus.
+  - VS Cintia (Salón de Entrenadores) y Lionel (Traje S).
+  - VS Buzzwole y Guayo.
+  - VS Camila (Salón de Entrenadores) y Cayena (San Valentín).
+  - VS Bruno (Salón de Entrenadores) y Cheren (Neocampeón).
+- Regirock:
+  - VS Yasmina (Salón de Entrenadores) y Vito (Verano).
+  - VS Zarala (Salón de Entrenadores) y Acromo.
+  - VS Sonia (Academia) y Maya (Popurrí).
+  - VS Argenta y Rose (Puntos de Combate).
+  - VS Fero (Salón de Entrenadores) y Lance (Variedad 2).
+  - VS Erika y Lira.
+  - VS Sonia y Anán.
+- Moltres:
+  - VS Ciprián y Rojo (Traje S, Rayo).
+  - VS Gloria (Dojo) y Vaporeon (Sabotaje).
+  - VS Morti (Puntos de Combate) y Bruno.
+  - VS Adamas (Salón de Entrenadores) y Aura.
+  - VS Lorelei y Nákara.
+  - VS Gama y Seaking (Sabotaje)
+
 ## 1.1.8 - 21/08/2026
 ### Descripción
 Registro de los combates del 117 al 136 de la Aventura Legendaria 27. Se han realizado algunas modificaciones.
