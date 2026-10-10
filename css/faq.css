@@ -21,20 +21,20 @@ body main .block-content .question p, body main .block-content .question ul {
   color: #416973;
   margin-block: 10px;
 }
-body main .block-content .question #img-pk-panel {
+body main .block-content .question #img-pk-panel, body main .block-content .question #img-pk-version {
   width: auto;
 }
 @media screen and (min-width: 760px) {
-  body main .block-content .question #img-pk-panel {
+  body main .block-content .question #img-pk-panel, body main .block-content .question #img-pk-version {
     width: 620px;
     align-self: center;
   }
 }
-body main .block-content .question #img-pk-order, body main .block-content .question #img-sb-move, body main .block-content .question #img-pk-version {
+body main .block-content .question #img-sb-move {
   width: auto;
 }
 @media screen and (min-width: 400px) {
-  body main .block-content .question #img-pk-order, body main .block-content .question #img-sb-move, body main .block-content .question #img-pk-version {
+  body main .block-content .question #img-sb-move {
     width: 320px;
     align-self: center;
   }

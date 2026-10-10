@@ -1,3 +1,11 @@
+## 1.2.0 - 10/10/2026
+### Descripción
+Iniciada la Aventura Legendaria 28. Se han añadido mejoras en la interfaz.
+
+### Cambiado
+- El orden de los compis ahora aparece reflejado en cada equipo de combate. En la parte superior se muestra un icono señalando la posición en la que se coloca el compi como objetivo del combate.
+- Los compis cuyos tableros están registrados en la web PoMastersTools, tras actualizarse la web antes mencionada, se han podido indicar sus habilidades fortuitas.
+
 ## 1.1.9 - 22/08/2026
 ### Descripción
 Finaliza la Aventura Legendaria 27. Registro de los combates del 137 al 155 de la Aventura Legendaria 27.

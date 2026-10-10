@@ -5,7 +5,8 @@ body
         display: flex
         align-items: center
         background-color: #64A0BE
-        font-family: Geometric
+        font-family: Roboto
+        font-weight: bold
         height: 50px
         position: fixed
         bottom: 0
@@ -99,7 +100,6 @@ body
             .current-la-active
                 position: relative
                 border-color: #D29191
-                background-color: #FFFFFF
                 text-shadow: #A54646 1px 0px, #A54646 -1px 0px, #A54646 0px -1px, #A54646 0px 1px, #A54646 1px 1px, #A54646 -1px 1px, #A54646 1px -1px, #A54646 -1px -1px
                 box-shadow: none
                 &::after
@@ -306,19 +306,61 @@ body
                             padding: 5px
                             transition: 0.2s
 
+                            .target
+                                width: 20px
+
                             .sync-pair-icon
                                 width: 80px
 
-                            .sync-pair-name
+                            .sync-pair-name, .sync-pair-investment
                                 display: flex
                                 align-items: center
-                                font-family: Geometric
+                                font-family: Roboto
+                                font-weight: bold
                                 font-size: 12px
                                 text-align: center
                                 color: #FFFFFF
                                 text-shadow: #2D5A6E 1px 0px,#2D5A6E -1px 0px,#2D5A6E 0px -1px,#2D5A6E 0px 1px,#2D5A6E 1px 1px,#2D5A6E -1px 1px,#2D5A6E 1px -1px,#2D5A6E -1px -1px
-                                margin: 5px 2px
-                                height: 28px
+                                margin: 3px 2px
+
+                            .sync-pair-investment
+                                display: flex
+                                gap: 2px
+                                width: 100%
+
+                                .potential
+                                    width: 100%
+                                    font-size: 10px
+                                    border: 2px solid #326473
+                                    border-radius: 10px
+                                    padding-block: 3px
+                                    background-color: #6FB2C5
+                                    &.max
+                                        background-color: #E1D264
+
+                                    &.ex
+                                        background: linear-gradient(to right, #BE5D54 0%, #F9816F 10%, #FFA97A 20%, #FFCC71 35%, #99F49A 45%, #00F7D0 55%, #3AD5FB 65%, #BABEFF 78%, #F0ABEE 88%, #FF97B9 100%)
+
+                                    &.sa
+                                        background-color: #2378D2
+                                        text-shadow: #14467D 1px 0px,#14467D -1px 0px,#14467D 0px -1px,#14467D 0px 1px,#14467D 1px 1px,#14467D -1px 1px,#14467D 1px -1px,#14467D -1px -1px
+                                        color: #FFFABE
+
+                                    &.energy
+                                        width: 50px
+                                        background-color: #E6A03C
+
+                                    &.support
+                                        background-color: #1EA0DC
+
+                                    &.tech
+                                        background-color: #0FC891
+
+                                    &.strike
+                                        background-color: #FA5050
+
+                                    &.max, &.ex, &.sa, &.energy, &.support, &.tech, &.strike
+                                        border-color: #503C46
 
                             &:hover
                                 transform: scale(1.02)

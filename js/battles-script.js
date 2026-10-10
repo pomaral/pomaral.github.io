@@ -53,6 +53,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
     });
 
+    document.querySelectorAll('.sync-pairs-team').forEach(team => {
+        let targetNumber = 1;
+
+        for (const sync_pair of team.children) {
+
+            if (sync_pair.classList.contains('empty-space')) {
+                continue;
+            }
+
+            const target = document.createElement('img');
+
+            target.src = `../img/media/objetivo_${targetNumber}.png`;
+            target.alt = `Objetivo ${targetNumber}`;
+            target.classList.add('target');
+
+            sync_pair.prepend(target);
+            targetNumber++;
+        }
+    });
+
     // Navegación con scroll lateral
     const slider = document.querySelector("nav ul");
 

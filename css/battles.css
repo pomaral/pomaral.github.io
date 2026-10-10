@@ -327,6 +327,9 @@ body #battles #battle-list .battle .battle-info .sync-pairs-team a, body #battle
   padding: 5px;
   transition: 0.2s;
 }
+body #battles #battle-list .battle .battle-info .sync-pairs-team a .target, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .target, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .target {
+  width: 20px;
+}
 body #battles #battle-list .battle .battle-info .sync-pairs-team a .sync-pair-icon, body #battles #battle-list .battle .battle-info .sync-pairs-team .eggmon .sync-pair-icon, body #battles #battle-list .battle .battle-info .sync-pairs-team .empty-space .sync-pair-icon {
   width: 80px;
 }
