@@ -1,3 +1,32 @@
+## 1.2.1 - 11/10/2026
+### Descripción
+Registro de los combates del 1 al 16 de la Aventura Legendaria 28. Se han corregido algunos errores.
+
+### Añadido
+- Aventura Legendaria 28: combates del 1 al 16.
+- Tapu Bulu:
+  - VS Erika (Traje S).
+  - VS Elio (Variedad).
+  - VS Erin.
+  - VS Blanca (Navidad).
+  - VS e-Nigma.
+  - VS Serena (Salón de Entrenadores).
+- Latias:
+  - VS Elaine.
+  - VS Volus (Domador Pokémon).
+  - VS Corin.
+  - VS Pola (Año Nuevo).
+  - VS Lem.
+- Raikou:
+  - VS Adamas.
+  - VS Nákara.
+  - VS Zarala (Traje S).
+  - VS Maya (Año Nuevo).
+  - VS Ástrid.
+
+### Corregido
+- En la versión de móvil no aparecía la Aventura Legendaria 27.
+
 ## 1.2.0 - 10/10/2026
 ### Descripción
 Iniciada la Aventura Legendaria 28. Se han añadido mejoras en la interfaz.
