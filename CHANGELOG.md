@@ -1,3 +1,41 @@
+## 1.2.2 - 12/10/2026
+### Descripción
+Registro de los combates del 17 al 40 de la Aventura Legendaria 28. Se han corregido algunos errores.
+
+### Añadido
+- Aventura Legendaria 28: combates del 17 al 40.
+- Tapu Bulu:
+  - VS Maya.
+  - VS Xana.
+  - VS Cheren (Neocampeón).
+  - VS Aurora.
+  - VS Bel.
+  - VS Bruno (Traje S).
+  - VS Azul (Traje S).
+  - VS Bruno (Salón de Entrenadores).
+- Latias:
+  - VS Cass.
+  - VS Rojo (1996).
+  - VS Ciprés.
+  - VS Bel (Neocampeona).
+  - VS Lucho (Neocampeón).
+  - VS Selene (Neocampeona).
+  - VS Elio (Neocampeón).
+  - VS León (Neocampeón).
+- Raikou:
+  - VS Cass (Traje S).
+  - VS Clavel.
+  - VS Mencía.
+  - VS Liza (Neocampeona).
+  - VS Berto (Neocampeón).
+  - VS Roxy (Neocampeona).
+  - VS Aura (Neocampeona).
+  - VS Bruno (Neocampeón).
+
+### Corregido
+- El combate de Raikou VS Mencía no tenía la habilidad fortuita correcta y ha sido corregida:
+  - Ataque Defensa ↓ +1 → Ataque Defensa ↓ +2.
+
 ## 1.2.1 - 11/10/2026
 ### Descripción
 Registro de los combates del 1 al 16 de la Aventura Legendaria 28. Se han corregido algunos errores.
