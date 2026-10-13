@@ -1,3 +1,25 @@
+## 1.2.3 - 13/10/2026
+### Descripción
+Registro de los combates del 41 al 48 de la Aventura Legendaria 28. Se han corregido algunos errores.
+
+### Añadido
+- Aventura Legendaria 28: combates del 41 al 48.
+- Tapu Bulu:
+  - VS Cintia (Traje S, Aural).
+  - VS Juliana (Evento).
+- Latias:
+  - VS Azul (Neocampeón).
+  - VS Hoja (Neocampeona).
+  - VS Eco (Neocampeón).
+- Raikou:
+  - VS Rojo (Neocampeón).
+  - VS Alik (Traje S).
+  - VS Kalm (Neocampeón).
+
+### Corregido
+- La descripción, el tablero compi y la dificultad del combate Tapu Bulu VS Cintia (Traje S, Aural) han sido modificados.
+  - Cambio de dificultad: Difícil → Normal.
+
 ## 1.2.2 - 12/10/2026
 ### Descripción
 Registro de los combates del 17 al 40 de la Aventura Legendaria 28. Se han corregido algunos errores.
