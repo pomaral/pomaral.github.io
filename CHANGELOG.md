@@ -1,3 +1,29 @@
+## 1.2.4 - 14/10/2026
+### Descripción
+Registro de los combates del 49 al 64 de la Aventura Legendaria 28.
+
+### Añadido
+- Aventura Legendaria 28: combates del 49 al 64.
+- Tapu Bulu:
+  - VS Nanci.
+  - VS Lira (Puntos de Combate).
+  - VS Lira.
+  - VS Nereida.
+  - VS Sófora.
+  - VS Lance (Variedad 2).
+- Latias:
+  - VS Lira (Neocampeona).
+  - VS Lira (Traje S).
+  - VS Ságita.
+  - VS Máximo (Architraje).
+  - VS Ságita (Architraje).
+- Raikou:
+  - VS Cristi (Traje S).
+  - VS Rojo (Popurrí).
+  - VS Hoja.
+  - VS Cintia (Architraje).
+  - VS León (Popurrí).
+
 ## 1.2.3 - 13/10/2026
 ### Descripción
 Registro de los combates del 41 al 48 de la Aventura Legendaria 28. Se han corregido algunos errores.
